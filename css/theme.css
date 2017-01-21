@@ -1,0 +1,31 @@
+ body {
+  background-color: black;
+}
+ img.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+canvas {
+  position: absolute;
+	top: 200px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+button {
+    background-color: #84BD00;
+    border: none;
+    color:white;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left:25%;
+    margin-top: 27.5%;
+    cursor: pointer;
+}

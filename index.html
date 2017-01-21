@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/theme.css">
+    </head>
+    <body>
+        <img src = "imgs/splatoon_logo.png" class="center" alt = "Splatoon VR"/>
+
+        <script>
+            var c=document.getElementById("myCanvas");
+            var ctx=c.getContext("2d");
+            ctx.rect(20,20,150,100);
+            ctx.stroke();
+
+        </script>
+
+        <canvas id="myCanvas" width="1000" height="500" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.</canvas>
+        <button class="button">Wash the map</button>
+        <button class="button" style="left:50%">Vote for next map</button>
+    </body>
+</html>
